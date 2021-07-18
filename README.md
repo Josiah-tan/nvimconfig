@@ -3,11 +3,16 @@
 
 
 # Try To Get The Latest Version (Ubuntu) Of Vim
+## For Ubuntu Linux
 
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x nvim.appimage
 sudo ln -s ~/nvim.appimage /usr/bin/nvim
 
+## For wsl2
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
+sudo apt-get install neovim
 
 
 # Git Cloning Nvim (For Usage):

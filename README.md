@@ -29,7 +29,5 @@ sudo apt-get install neovim
 
 # Directory Layout
 
-- pack:
-	- Contains some configs for kite
 - init.vim
 	- Sources the ~/.vim/vimrc file

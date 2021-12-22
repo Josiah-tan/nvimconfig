@@ -23,10 +23,6 @@ sudo apt-get install neovim
 - git clone https://github.com/Josiah-tan/nvimconfig.git ~/.config/nvim
 
 
-
-
-
-
 # Directory Layout
 
 - init.vim
